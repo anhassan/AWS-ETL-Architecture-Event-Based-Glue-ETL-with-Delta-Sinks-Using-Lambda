@@ -1,0 +1,23 @@
+{"source_s3_path" : "s3://source-iot-dumps/iot-sensor-dumps/" ,
+"sink_s3_path": "s3a://datalake-platform/delta/raw/",
+"catalog_db_name" : "iot_source_dumps_db",
+"catalog_table_name" : "iot_source_raw_delta",
+"serde_lib" : "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+"input_format" : "org.apache.hadoop.hive.ql.io.SymlinkTextInputFormat",
+"output_format" : "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+"s3_manifest_path" : "s3://datalake-platform/delta/raw/_symlink_format_manifest/",
+"s3_athena_query_result_path" : "s3://datalake-platform/athena/"
+}
+
+
+
+
+
+
+
+        
+        
+    
+    
+
+    
