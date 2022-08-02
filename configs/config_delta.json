@@ -8,16 +8,3 @@
 "s3_manifest_path" : "s3://datalake-platform/delta/raw/_symlink_format_manifest/",
 "s3_athena_query_result_path" : "s3://datalake-platform/athena/"
 }
-
-
-
-
-
-
-
-        
-        
-    
-    
-
-    
