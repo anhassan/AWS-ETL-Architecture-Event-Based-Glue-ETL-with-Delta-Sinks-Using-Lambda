@@ -255,3 +255,5 @@ external_table_ddl = get_external_delta_ddl(df_denormalized,partition_cols,CATAL
                                   SERDE_LIBRARY,INPUT_FORMAT,OUTPUT_FORMAT,S3_MANIFEST_PATH)
 create_delta_table_athena(curr_df,prev_df,CATALOG_DB_NAME,CATALOG_TABLE_NAME,external_table_ddl,ATHENA_RES_PATH)
 
+
+
